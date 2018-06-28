@@ -1,0 +1,11 @@
+# Substitute
+
+>A wizard (he seemed kinda odd...) handed me this. Can you figure out what it says?
+>
+> HINTS
+>There are tools that make this easy this.
+
+The message is encrypted by a simple substiution where every letter of the alphabet is mapped to another.
+Doing by hand is a tedious task, but possible. A gerneral approach to this would be to analyse the letter-frequency of the encrypted message and map this data to real world letter distributio. You can read [here](http://www.instructables.com/id/Break-a-Substitution-Cipher/) about the procedure.
+
+You can also use a online substitution decypher [tool](https://www.guballa.de/substitution-solver)
