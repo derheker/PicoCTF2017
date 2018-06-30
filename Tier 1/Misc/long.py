@@ -10,7 +10,7 @@ regex_times = r"('[0-9]+'|'[A-Za-z]+')"                #regular expression to fi
                                                                                                             
                                                                                                             
 reg_search = re.findall(regex_times, msg)              #find all expressions in the message matching the regex 
-													   #(every substring enclosed in '' with only one or more numbers or one letter will be matched)                                                     
+						       #(every substring enclosed in '' with only one or more numbers or one letter will be matched)                                                     
                                                                                                             
                                                                                                             
 regsearch = [ x.replace("'", "") for x in reg_search ] #remove ' from all hits
